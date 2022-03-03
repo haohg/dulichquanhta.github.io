@@ -1,0 +1,100 @@
+.col-s-1{ width: 8.33%; }
+.col-s-2{ width: 16.66%; }
+.col-s-3{ width: 25%; }
+.col-s-4{ width: 33.33%; }
+.col-s-5{ width: 41.66%; }
+.col-s-6{ width: 50%; }
+.col-s-7{ width: 58.33%; }
+.col-s-8{ width: 66.66%; }
+.col-s-9{ width: 75%;}
+.col-s-10{ width: 83.33%; }
+.col-s-11{ width: 91.66%; }
+.col-s-12{width: 100%; }
+
+[class*="col"]{
+	float: left;
+}
+h1{font-family: 'Dosis', sans-serif; font-size: 40px;}
+h2{font-family: 'Dosis', sans-serif; font-size: 30px;}
+
+/*----------------------------------------Header menu top style------------------------------------------------*/
+.menu-top ul a{
+	display: block;
+	float: left;
+	font-size: 1.8vw;
+	word-spacing: 0;
+	padding: 3%;
+	font-weight: bold;
+	color: #F2F4F4;
+}
+.menu-top li:first-child a{
+	margin-left:5%;
+}
+.menu-top{
+	width: 100%;
+	background-color: #212F3D;
+	position: fixed;
+	top: 0;
+	z-index: 100;
+}
+
+/*-----------------------------------------main style---------------------------------------------------*/
+.main hgroup {
+	text-align: center;
+}
+.main{ 
+	overflow: auto;
+	padding: 10% 5%; 
+}
+.wrap-img hgroup { margin-bottom: 8%; }
+.wrap-img img
+{
+	width: 50%;
+	height: auto;
+	float: left;
+	border-radius: 15px;
+}
+.item{
+	text-align: center;
+	margin-bottom: 5%;
+	padding-bottom: 5%;
+	border-bottom: solid 2px #212F3D;
+}
+.item h2{
+	width: 50%;
+	padding: 2%;
+	border-radius: 15px;
+	margin-left: 50%;
+	font-size: 3vw;
+	color: #212F3D
+}
+.item p{
+	padding: 0 5% 0 55%;
+	text-align: justify;
+	color: #808B96 ;
+	font-size: 1.8vw;
+}
+.item h2:hover{ color:#e59866 ; }
+.wrap-img div:nth-child(7)
+{ border: none; margin-bottom: 0; }
+
+
+
+/*-------------------------------Footer page style-----------------------------------------------------*/
+.footer-page{
+	font-family: 'Roboto', sans-serif;
+	background-color: #212F3D;
+}
+.content-box{
+	overflow: auto;
+	padding: 5%;
+}
+.content-box ul{
+	margin-top: 2%;
+}
+.content-box a{ display: block; color: white;font-size: 2vw; }
+.content-box h2{font-style: normal; font-weight: 900; color: white; font-size: 3vw;}
+.news-footer li{float: left; padding:2% 3% 2% 0%;}
+
+address { color: white; margin-bottom: 5%; font-size: 2vw; }
+address li { padding:2% 0%}
